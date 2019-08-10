@@ -6,10 +6,13 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
+dockerpath=scaredcat/boston_housing
 
-# Step 2:  
+# Step 2:
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login
 
 # Step 3:
 # Push image to a docker repository
+docker push scaredcat/boston_housing
