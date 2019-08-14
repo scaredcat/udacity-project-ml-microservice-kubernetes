@@ -16,5 +16,4 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl expose pod boston-housing --port=80 --type=NodePort
-
+kubectl port-forward boston-housing 8000:80

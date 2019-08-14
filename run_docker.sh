@@ -4,12 +4,12 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build . --tag=scaredcat/boston_housing
+docker build . --tag=boston_housing
 
 # Step 2:
 # List docker images
-docker image ls scaredcat/boston_housing
+docker image ls boston_housing
 
 # Step 3:
 # Run flask app
-docker run --rm -p 8000:80 scaredcat/boston_housing
+docker run --rm -p 8000:80 boston_housing

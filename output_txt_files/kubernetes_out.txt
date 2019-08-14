@@ -1,4 +1,14 @@
-pod/boston-housing created
-NAME             READY   STATUS              RESTARTS   AGE
-boston-housing   0/1     ContainerCreating   0          0s
-service/boston-housing exposed
+Error from server (AlreadyExists): pods "boston-housing" already exists
+NAME             READY   STATUS    RESTARTS   AGE
+boston-housing   1/1     Running   0          82s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
